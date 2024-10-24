@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Tres en linea</title>
 </head>
 
 <body>
     <div class="container">
         <h1>3 EN LINEA</h1>
+        <div id="turno">Turno de: <span id="jugadorActual">X</span></div>
+        <div id="contadores">
+            <p>Partidas ganadas por X: <span id="ganadasX">0</span></p>
+            <p>Partidas ganadas por O: <span id="ganadasO">0</span></p>
+        </div>
         <table class="game-board">
             <tr>
                 <td class="cell" id="cell1"></td>
@@ -35,6 +41,7 @@
             <span class="symbol" id="chooseX">X</span>
             <span class="symbol" id="chooseO">O</span>
         </div>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
